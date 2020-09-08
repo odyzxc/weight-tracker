@@ -1,0 +1,10 @@
+1. add start screen with initial data form
+ - starting weight
+ - height
+ - sex
+ - age
+ - weekly activity (needed for BMR)
+2. calculate current BMI
+3. calculate Basal Metabolic Rate
+4. filtering by labels
+5. label adding screen, restrict label added with measurement to those added here
