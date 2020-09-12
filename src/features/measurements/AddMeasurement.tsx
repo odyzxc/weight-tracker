@@ -17,7 +17,7 @@ type NavigationProps = {
 
 const AddMeasurement: FC<NavigationProps> = ({ navigation }) => {
   const dispatch = useDispatch();
-  const [measurement, setMeasurement] = useState<string>("0");
+  const [measurement, setMeasurement] = useState<string>("0"); // TODO change to number - maybe other input component?
   const [label, setLabel] = useState<string>();
   return (
     <View style={styles.container}>
